@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Gamja Flower";
+  src:url("fonts/GamjaFlower-Regular.ttf");
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  font-family: 'Gamja Flower', cursive;
+  font-size: 3rem;
+  color: red;
+  padding: 5px 10px 15px 20px;
+  border: 2px solid black;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+div:last-of-type:hover {
+  /* background: red;
+  color: white; */
+  font-weight: bold;
+  cursor: pointer;
+  border-width: 10px;
+  border-style: double dashed dotted solid;
+
+}
