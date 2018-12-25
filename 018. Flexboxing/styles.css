@@ -1,0 +1,121 @@
+* {
+  border: 1px dotted blue;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  width: 320px;
+  height: 568px;
+  display: flex;
+  flex-direction: column;
+}
+
+.child1 {
+  height: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.surface-text {
+  width: 133px;
+  height: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+.child2 {
+  height: 158px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.slogan1,
+.slogan2 {
+  text-transform: uppercase;
+}
+
+.slogan1 {
+  margin-left: 20px;
+  font-size: 31px;
+}
+
+.child3 {
+  height: 84px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.slogan2 {
+  margin-left: 64px;
+  font-size: 28px;
+}
+
+.child4 {
+  height: 124px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.child4 button {
+  width: 280px;
+  display: flex;
+  align-items: center;
+  font-size: 8px;
+}
+
+.child4 button .logo {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+
+.child5 {
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+.child5 button {
+  width: 280px;
+  display: flex;
+  align-items: center;
+  font-size: 8px;
+}
+
+.child5 button .logo {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+buttton .store {
+  font-weight: bold;
+}
+
+
+.logo img {
+  width: 20px;
+  height: 24px;
+  margin-right: 9px;
+}
+
+.cta,
+.store {
+  text-align: left;
+  text-transform: uppercase;
+}
